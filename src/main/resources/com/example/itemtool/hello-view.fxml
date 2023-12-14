@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="550.0" style="-fx-background-color: #e6f0ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.itemtool.HelloController">
+   <children>
+      <MenuButton id="menu1" fx:id="menuButton1" layoutX="14.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 1" textFill="#1f12b0">
+        <items>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Assassin">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Axiom Arc" />
+                  <MenuItem mnemonicParsing="false" text="Duskblade of Draktharr" />
+                  <MenuItem mnemonicParsing="false" text="Eclipse" />
+                  <MenuItem mnemonicParsing="false" text="Edge of Night" />
+                  <MenuItem mnemonicParsing="false" text="Prowlers Claw" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Mage">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Archangel's Staff" />
+                  <MenuItem mnemonicParsing="false" text="Luden's Tempest" />
+                  <MenuItem mnemonicParsing="false" text="Liandry's Anguish" />
+                  <MenuItem mnemonicParsing="false" text="Everfrost" />
+                  <MenuItem mnemonicParsing="false" text="Banshee's Veil" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Tank">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Force of Nature" />
+                  <MenuItem mnemonicParsing="false" text="Heartsteel" />
+                  <MenuItem mnemonicParsing="false" text="Thornmail" />
+                  <MenuItem mnemonicParsing="false" text="Jak'Sho, The Protean" />
+                  <MenuItem mnemonicParsing="false" text="Warmog's Armor" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Support">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Ardent Censer" />
+                  <MenuItem mnemonicParsing="false" text="Chemtech Putrifier" />
+                  <MenuItem mnemonicParsing="false" text="Moonstone Renewer" />
+                  <MenuItem mnemonicParsing="false" text="Staff of Flowing Water" />
+                  <MenuItem mnemonicParsing="false" text="Redemption" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Marksman">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Bloodthirster" />
+                  <MenuItem mnemonicParsing="false" text="Essence Reaver" />
+                  <MenuItem mnemonicParsing="false" text="Kraken Slayer" />
+                  <MenuItem mnemonicParsing="false" text="Phantom Dancer" />
+                  <MenuItem mnemonicParsing="false" text="Rapid Firecannon" />
+               </items>
+            </Menu>
+        </items>
+      </MenuButton>
+      <MenuButton id="menu2" fx:id="menuButton2" layoutX="99.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 2" textFill="#1f12b0">
+         <items>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Assassin">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Axiom Arc" />
+                  <MenuItem mnemonicParsing="false" text="Duskblade of Draktharr" />
+                  <MenuItem mnemonicParsing="false" text="Eclipse" />
+                  <MenuItem mnemonicParsing="false" text="Edge of Night" />
+                  <MenuItem mnemonicParsing="false" text="Prowlers Claw" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Mage">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Archangel's Staff" />
+                  <MenuItem mnemonicParsing="false" text="Luden's Tempest" />
+                  <MenuItem mnemonicParsing="false" text="Liandry's Anguish" />
+                  <MenuItem mnemonicParsing="false" text="Everfrost" />
+                  <MenuItem mnemonicParsing="false" text="Banshee's Veil" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Tank">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Force of Nature" />
+                  <MenuItem mnemonicParsing="false" text="Heartsteel" />
+                  <MenuItem mnemonicParsing="false" text="Thornmail" />
+                  <MenuItem mnemonicParsing="false" text="Jak'Sho, The Protean" />
+                  <MenuItem mnemonicParsing="false" text="Warmog's Armor" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Support">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Ardent Censer" />
+                  <MenuItem mnemonicParsing="false" text="Chemtech Putrifier" />
+                  <MenuItem mnemonicParsing="false" text="Moonstone Renewer" />
+                  <MenuItem mnemonicParsing="false" text="Staff of Flowing Water" />
+                  <MenuItem mnemonicParsing="false" text="Redemption" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Marksman">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Bloodthirster" />
+                  <MenuItem mnemonicParsing="false" text="Essence Reaver" />
+                  <MenuItem mnemonicParsing="false" text="Kraken Slayer" />
+                  <MenuItem mnemonicParsing="false" text="Phantom Dancer" />
+                  <MenuItem mnemonicParsing="false" text="Rapid Firecannon" />
+               </items>
+            </Menu>
+         </items>
+      </MenuButton>
+      <MenuButton id="menu3" fx:id="menuButton3" layoutX="186.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 3" textFill="#1f12b0">
+         <items>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Assassin">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Axiom Arc" />
+                  <MenuItem mnemonicParsing="false" text="Duskblade of Draktharr" />
+                  <MenuItem mnemonicParsing="false" text="Eclipse" />
+                  <MenuItem mnemonicParsing="false" text="Edge of Night" />
+                  <MenuItem mnemonicParsing="false" text="Prowlers Claw" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Mage">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Archangel's Staff" />
+                  <MenuItem mnemonicParsing="false" text="Luden's Tempest" />
+                  <MenuItem mnemonicParsing="false" text="Liandry's Anguish" />
+                  <MenuItem mnemonicParsing="false" text="Everfrost" />
+                  <MenuItem mnemonicParsing="false" text="Banshee's Veil" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Tank">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Force of Nature" />
+                  <MenuItem mnemonicParsing="false" text="Heartsteel" />
+                  <MenuItem mnemonicParsing="false" text="Thornmail" />
+                  <MenuItem mnemonicParsing="false" text="Jak'Sho, The Protean" />
+                  <MenuItem mnemonicParsing="false" text="Warmog's Armor" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Support">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Ardent Censer" />
+                  <MenuItem mnemonicParsing="false" text="Chemtech Putrifier" />
+                  <MenuItem mnemonicParsing="false" text="Moonstone Renewer" />
+                  <MenuItem mnemonicParsing="false" text="Staff of Flowing Water" />
+                  <MenuItem mnemonicParsing="false" text="Redemption" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Marksman">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Bloodthirster" />
+                  <MenuItem mnemonicParsing="false" text="Essence Reaver" />
+                  <MenuItem mnemonicParsing="false" text="Kraken Slayer" />
+                  <MenuItem mnemonicParsing="false" text="Phantom Dancer" />
+                  <MenuItem mnemonicParsing="false" text="Rapid Firecannon" />
+               </items>
+            </Menu>
+         </items>
+      </MenuButton>
+      <MenuButton id="menu4" fx:id="menuButton4" layoutX="291.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 4" textFill="#1f12b0">
+         <items>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Assassin">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Axiom Arc" />
+                  <MenuItem mnemonicParsing="false" text="Duskblade of Draktharr" />
+                  <MenuItem mnemonicParsing="false" text="Eclipse" />
+                  <MenuItem mnemonicParsing="false" text="Edge of Night" />
+                  <MenuItem mnemonicParsing="false" text="Prowlers Claw" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Mage">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Archangel's Staff" />
+                  <MenuItem mnemonicParsing="false" text="Luden's Tempest" />
+                  <MenuItem mnemonicParsing="false" text="Liandry's Anguish" />
+                  <MenuItem mnemonicParsing="false" text="Everfrost" />
+                  <MenuItem mnemonicParsing="false" text="Banshee's Veil" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Tank">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Force of Nature" />
+                  <MenuItem mnemonicParsing="false" text="Heartsteel" />
+                  <MenuItem mnemonicParsing="false" text="Thornmail" />
+                  <MenuItem mnemonicParsing="false" text="Jak'Sho, The Protean" />
+                  <MenuItem mnemonicParsing="false" text="Warmog's Armor" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Support">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Ardent Censer" />
+                  <MenuItem mnemonicParsing="false" text="Chemtech Putrifier" />
+                  <MenuItem mnemonicParsing="false" text="Moonstone Renewer" />
+                  <MenuItem mnemonicParsing="false" text="Staff of Flowing Water" />
+                  <MenuItem mnemonicParsing="false" text="Redemption" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Marksman">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Bloodthirster" />
+                  <MenuItem mnemonicParsing="false" text="Essence Reaver" />
+                  <MenuItem mnemonicParsing="false" text="Kraken Slayer" />
+                  <MenuItem mnemonicParsing="false" text="Phantom Dancer" />
+                  <MenuItem mnemonicParsing="false" text="Rapid Firecannon" />
+               </items>
+            </Menu>
+         </items>
+      </MenuButton>
+      <MenuButton id="menu5" fx:id="menuButton5" layoutX="382.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 5" textFill="#1f12b0">
+         <items>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Assassin">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Axiom Arc" />
+                  <MenuItem mnemonicParsing="false" text="Duskblade of Draktharr" />
+                  <MenuItem mnemonicParsing="false" text="Eclipse" />
+                  <MenuItem mnemonicParsing="false" text="Edge of Night" />
+                  <MenuItem mnemonicParsing="false" text="Prowlers Claw" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Mage">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Archangel's Staff" />
+                  <MenuItem mnemonicParsing="false" text="Luden's Tempest" />
+                  <MenuItem mnemonicParsing="false" text="Liandry's Anguish" />
+                  <MenuItem mnemonicParsing="false" text="Everfrost" />
+                  <MenuItem mnemonicParsing="false" text="Banshee's Veil" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Tank">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Force of Nature" />
+                  <MenuItem mnemonicParsing="false" text="Heartsteel" />
+                  <MenuItem mnemonicParsing="false" text="Thornmail" />
+                  <MenuItem mnemonicParsing="false" text="Jak'Sho, The Protean" />
+                  <MenuItem mnemonicParsing="false" text="Warmog's Armor" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Support">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Ardent Censer" />
+                  <MenuItem mnemonicParsing="false" text="Chemtech Putrifier" />
+                  <MenuItem mnemonicParsing="false" text="Moonstone Renewer" />
+                  <MenuItem mnemonicParsing="false" text="Staff of Flowing Water" />
+                  <MenuItem mnemonicParsing="false" text="Redemption" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Marksman">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Bloodthirster" />
+                  <MenuItem mnemonicParsing="false" text="Essence Reaver" />
+                  <MenuItem mnemonicParsing="false" text="Kraken Slayer" />
+                  <MenuItem mnemonicParsing="false" text="Phantom Dancer" />
+                  <MenuItem mnemonicParsing="false" text="Rapid Firecannon" />
+               </items>
+            </Menu>
+         </items>
+      </MenuButton>
+      <MenuButton id="menu6" fx:id="menuButton6" layoutX="470.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 6" textFill="#1f12b0">
+         <items>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Assassin">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Axiom Arc" />
+                  <MenuItem mnemonicParsing="false" text="Duskblade of Draktharr" />
+                  <MenuItem mnemonicParsing="false" text="Eclipse" />
+                  <MenuItem mnemonicParsing="false" text="Edge of Night" />
+                  <MenuItem mnemonicParsing="false" text="Prowlers Claw" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Mage">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Archangel's Staff" />
+                  <MenuItem mnemonicParsing="false" text="Luden's Tempest" />
+                  <MenuItem mnemonicParsing="false" text="Liandry's Anguish" />
+                  <MenuItem mnemonicParsing="false" text="Everfrost" />
+                  <MenuItem mnemonicParsing="false" text="Banshee's Veil" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Tank">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Force of Nature" />
+                  <MenuItem mnemonicParsing="false" text="Heartsteel" />
+                  <MenuItem mnemonicParsing="false" text="Thornmail" />
+                  <MenuItem mnemonicParsing="false" text="Jak'Sho, The Protean" />
+                  <MenuItem mnemonicParsing="false" text="Warmog's Armor" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Support">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Ardent Censer" />
+                  <MenuItem mnemonicParsing="false" text="Chemtech Putrifier" />
+                  <MenuItem mnemonicParsing="false" text="Moonstone Renewer" />
+                  <MenuItem mnemonicParsing="false" text="Staff of Flowing Water" />
+                  <MenuItem mnemonicParsing="false" text="Redemption" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" onAction="#menuClick" text="Marksman">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Bloodthirster" />
+                  <MenuItem mnemonicParsing="false" text="Essence Reaver" />
+                  <MenuItem mnemonicParsing="false" text="Kraken Slayer" />
+                  <MenuItem mnemonicParsing="false" text="Phantom Dancer" />
+                  <MenuItem mnemonicParsing="false" text="Rapid Firecannon" />
+               </items>
+            </Menu>
+         </items>
+      </MenuButton>
+      <Button fx:id="showStats" layoutX="236.0" layoutY="144.0" mnemonicParsing="false" onAction="#changeLabelText" style="-fx-background-color: #b3d1ff;" text="Show stats" textFill="#1f12b0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Text fill="#1f12b0" layoutX="227.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select 6 items:" textAlignment="CENTER" wrappingWidth="95.33335367838538">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Text>
+      <Line endX="535.3333129882812" endY="81.50001525878906" startX="15.99998950958252" startY="81.50000762939453" stroke="#1f12b0" />
+      <Label fx:id="myLabel" alignment="TOP_LEFT" layoutX="15.0" layoutY="190.0" prefHeight="195.0" prefWidth="521.0" text="gg">
+         <font>
+            <Font name="Courier New" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
