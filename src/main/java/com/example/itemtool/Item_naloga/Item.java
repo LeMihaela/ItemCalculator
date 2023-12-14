@@ -7,7 +7,7 @@ public class Item {
     protected String name;
     protected int AD;
     protected int AP;
-    protected   int HP;
+    protected int HP;
     protected String Effect;
     protected int AbilityHaste;
     protected int Health;
