@@ -11,4 +11,9 @@ public class AssassinItem extends Item {
     public int getLethality() {
         return Lethality;
     }
+
+    @Override
+    public String toString() {
+        return("Item has:" + AD + " ad," + AP + " ap," + HP + " hp," + AbilityHaste + " ah," + Lethality + "lethality");
+    }
 }

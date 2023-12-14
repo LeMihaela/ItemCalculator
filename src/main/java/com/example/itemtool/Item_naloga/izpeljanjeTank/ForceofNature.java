@@ -1,7 +1,7 @@
 package com.example.itemtool.Item_naloga.izpeljanjeTank;
 
 import com.example.itemtool.Item_naloga.Osnova.TankItem;
-
+//dedovanje iz Tank itema
 public class ForceofNature extends TankItem {
     public ForceofNature(){
         super();

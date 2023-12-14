@@ -15,4 +15,8 @@ public class TankItem extends Item {
     public int getMR() {
         return MR;
     }
+    @Override
+    public String toString() {
+        return("Item has:" + AD + " ad," + AP + " ap," + HP + " hp," + AbilityHaste + " ah," + Armor + " armor," + MR + "magic resist");
+    }
 }

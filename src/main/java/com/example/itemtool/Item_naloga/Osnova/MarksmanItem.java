@@ -20,4 +20,9 @@ public class MarksmanItem extends Item {
     public int getLifeSteal() {
         return LifeSteal;
     }
+
+    @Override
+    public String toString() {
+        return("Item has:" + AD + " ad," + AP + " ap," + HP + " hp," + AbilityHaste + " ah," + AttackSpeed + " % attack speed," + CriticalStrike + "% crit " + LifeSteal + "life steal" );
+    }
 }

@@ -1,7 +1,7 @@
 package com.example.itemtool.Item_naloga.izpeljanjeSupport;
 
 import com.example.itemtool.Item_naloga.Osnova.SupportItem;
-
+//dedovanje iz Support itema
 public class ArdentCenser extends SupportItem {
     public ArdentCenser(){
         super();

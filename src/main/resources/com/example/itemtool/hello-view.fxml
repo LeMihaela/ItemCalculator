@@ -335,7 +335,7 @@
          </font>
       </Text>
       <Line endX="785.3333740234375" endY="81.50000762939453" startX="15.99998950958252" startY="81.50000762939453" stroke="#1f12b0" />
-      <Label fx:id="myLabel" alignment="TOP_LEFT" layoutX="40.0" layoutY="190.0" prefHeight="259.0" prefWidth="735.0" text="Calculating..." textFill="#00000075">
+      <Label fx:id="myLabel" alignment="TOP_LEFT" layoutX="9.0" layoutY="207.0" prefHeight="251.0" prefWidth="791.0" text="Calculating..." textFill="#00000075">
          <font>
             <Font name="Courier New" size="12.0" />
          </font>

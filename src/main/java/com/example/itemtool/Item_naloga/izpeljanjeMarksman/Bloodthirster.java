@@ -1,7 +1,7 @@
 package com.example.itemtool.Item_naloga.izpeljanjeMarksman;
 
 import com.example.itemtool.Item_naloga.Osnova.MarksmanItem;
-
+//dedovanje iz Marksman itema
 public class Bloodthirster extends MarksmanItem {
     public Bloodthirster(){
         super();

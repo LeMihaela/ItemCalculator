@@ -1,7 +1,7 @@
 package com.example.itemtool.Item_naloga.izpeljanjeMage;
 
 import com.example.itemtool.Item_naloga.Osnova.MageItem;
-
+//dedovanje iz Mage itema
 public class LudensTempest extends MageItem {
     public LudensTempest(){
         super();

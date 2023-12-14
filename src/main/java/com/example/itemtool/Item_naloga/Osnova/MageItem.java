@@ -11,4 +11,9 @@ public class MageItem extends Item {
     public int getMana() {
         return Mana;
     }
+
+    @Override
+    public String toString() {
+        return("Item has:" + AD + " ad," + AP + " ap," + HP + " hp," + AbilityHaste + " ah," + Mana + "mana");
+    }
 }

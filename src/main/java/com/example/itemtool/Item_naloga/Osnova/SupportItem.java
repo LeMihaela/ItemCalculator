@@ -15,4 +15,8 @@ public class SupportItem extends Item {
     public int getManaRegen() {
         return ManaRegen;
     }
+    @Override
+    public String toString() {
+        return("Item has:" + AD + " ad," + AP + " ap," + HP + " hp," + AbilityHaste + " ah," + HealAndShield + " Heal and Sheild," + ManaRegen + "mana reg.");
+    }
 }

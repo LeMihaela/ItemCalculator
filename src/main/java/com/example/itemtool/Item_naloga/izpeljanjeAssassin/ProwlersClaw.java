@@ -1,7 +1,7 @@
 package com.example.itemtool.Item_naloga.izpeljanjeAssassin;
 
 import com.example.itemtool.Item_naloga.Osnova.AssassinItem;
-
+//dedovanje iz Assassin itema
 public class ProwlersClaw extends AssassinItem {
     public ProwlersClaw(){
         super();
