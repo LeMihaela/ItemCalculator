@@ -5,6 +5,7 @@ import com.example.itemtool.Item_naloga.Osnova.MarksmanItem;
 public class RapidFirecannon extends MarksmanItem {
     public RapidFirecannon(){
         super();
+        name="Rapid Firecannon";
         AD=30;
         AP=0;
         HP=0;

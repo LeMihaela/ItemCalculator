@@ -5,6 +5,7 @@ import com.example.itemtool.Item_naloga.Osnova.TankItem;
 public class Heartsteel extends TankItem {
     public Heartsteel(){
         super();
+        name="Heartsteel";
         AD=0;
         AP=0;
         HP=800;

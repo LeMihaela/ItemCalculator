@@ -4,6 +4,8 @@ import com.example.itemtool.Item_naloga.Osnova.SupportItem;
 
 public class ChemtechPutrifier extends SupportItem {
     public ChemtechPutrifier(){
+        super();
+        name="Chemtech Putrifier";
         AD=0;
         AP=35;
         HP=0;

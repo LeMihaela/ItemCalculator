@@ -7,4 +7,12 @@ public class TankItem extends Item {
     }
     protected int Armor;
     protected int MR;
+
+    public int getArmor() {
+        return Armor;
+    }
+
+    public int getMR() {
+        return MR;
+    }
 }

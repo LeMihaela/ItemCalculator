@@ -4,6 +4,8 @@ import com.example.itemtool.Item_naloga.Osnova.SupportItem;
 
 public class ArdentCenser extends SupportItem {
     public ArdentCenser(){
+        super();
+        name="Ardent Censer";
         AD=0;
         AP=35;
         HP=0;

@@ -4,6 +4,8 @@ import com.example.itemtool.Item_naloga.Osnova.SupportItem;
 
 public class Redemption extends SupportItem {
     public Redemption(){
+        super();
+        name="Redemption";
         AD=0;
         AP=0;
         HP=250;

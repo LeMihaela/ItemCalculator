@@ -5,6 +5,7 @@ import com.example.itemtool.Item_naloga.Osnova.TankItem;
 public class WarmogsArmor extends TankItem {
     public WarmogsArmor(){
         super();
+        name="Warmog's Armor";
         AD=0;
         AP=0;
         HP=800;

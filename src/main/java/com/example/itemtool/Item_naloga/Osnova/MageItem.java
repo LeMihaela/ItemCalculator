@@ -7,4 +7,8 @@ public class MageItem extends Item {
         super();
     }
     protected int Mana;
+
+    public int getMana() {
+        return Mana;
+    }
 }

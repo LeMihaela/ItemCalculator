@@ -7,4 +7,8 @@ public class AssassinItem extends Item {
         super();
     }
     protected int Lethality;
+
+    public int getLethality() {
+        return Lethality;
+    }
 }

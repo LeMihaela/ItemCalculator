@@ -5,6 +5,7 @@ import com.example.itemtool.Item_naloga.Osnova.SupportItem;
 public class MoonstoneRenewer extends SupportItem {
     public MoonstoneRenewer(){
         super();
+        name="Moonstone Renewer";
         AD=0;
         AP=35;
         HP=200;

@@ -5,6 +5,7 @@ import com.example.itemtool.Item_naloga.Osnova.MarksmanItem;
 public class PhantomDancer extends MarksmanItem {
     public PhantomDancer(){
         super();
+        name="Phantom Dancer";
         AD=20;
         AP=0;
         HP=0;

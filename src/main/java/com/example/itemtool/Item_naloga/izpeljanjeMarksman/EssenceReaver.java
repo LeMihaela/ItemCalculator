@@ -5,6 +5,7 @@ import com.example.itemtool.Item_naloga.Osnova.MarksmanItem;
 public class EssenceReaver extends MarksmanItem {
     public EssenceReaver(){
         super();
+        name="Essence Reaver";
         AD=55;
         AP=0;
         HP=0;

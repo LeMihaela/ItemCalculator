@@ -8,4 +8,11 @@ public class SupportItem extends Item {
     protected int ManaRegen;
     protected int HealAndShield;
 
+    public int getHealAndShield() {
+        return HealAndShield;
+    }
+
+    public int getManaRegen() {
+        return ManaRegen;
+    }
 }

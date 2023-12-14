@@ -5,6 +5,7 @@ import com.example.itemtool.Item_naloga.Osnova.TankItem;
 public class ForceofNature extends TankItem {
     public ForceofNature(){
         super();
+        name="Force of Nature";
         AD=0;
         AP=0;
         HP=400;

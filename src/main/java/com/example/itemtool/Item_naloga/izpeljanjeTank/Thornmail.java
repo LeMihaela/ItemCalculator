@@ -5,6 +5,7 @@ import com.example.itemtool.Item_naloga.Osnova.TankItem;
 public class Thornmail extends TankItem {
     public Thornmail(){
         super();
+        name="Thornmail";
         AD=0;
         AP=0;
         HP=350;

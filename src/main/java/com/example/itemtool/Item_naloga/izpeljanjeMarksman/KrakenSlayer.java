@@ -5,6 +5,7 @@ import com.example.itemtool.Item_naloga.Osnova.MarksmanItem;
 public class KrakenSlayer extends MarksmanItem {
     public KrakenSlayer(){
         super();
+        name="Kraken Slayer";
         AD=40;
         AP=0;
         HP=0;
