@@ -1,6 +1,6 @@
 package com.example.itemtool.Item_naloga.Osnova;
 import com.example.itemtool.Item_naloga.Item;
-
+//Načrt za Marksman iteme
 public class MarksmanItem extends Item {
     public MarksmanItem(){
         super();

@@ -1,7 +1,7 @@
 package com.example.itemtool.Item_naloga.Osnova;
 
 import com.example.itemtool.Item_naloga.Item;
-
+//Načrt za Assassin iteme
 public class AssassinItem extends Item {
     public AssassinItem(){
         super();
