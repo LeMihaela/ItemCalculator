@@ -10,9 +10,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="433.0" prefWidth="739.0" style="-fx-background-color: #e6f0ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.itemtool.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="810.0" style="-fx-background-color: #e6f0ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.itemtool.HelloController">
    <children>
-      <MenuButton id="menu1" fx:id="menuButton1" layoutX="14.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 1" textFill="#1f12b0">
+      <MenuButton id="menu1" fx:id="menuButton1" layoutX="20.0" layoutY="40.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 1" textFill="#1f12b0">
         <items>
             <Menu mnemonicParsing="false" onAction="#menuClick" text="Assassin">
                <items>
@@ -64,7 +64,7 @@
             <Font size="11.0" />
          </font>
       </MenuButton>
-      <MenuButton id="menu2" fx:id="menuButton2" layoutX="133.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 2" textFill="#1f12b0">
+      <MenuButton id="menu2" fx:id="menuButton2" layoutX="165.0" layoutY="40.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 2" textFill="#1f12b0">
          <items>
             <Menu mnemonicParsing="false" onAction="#menuClick" text="Assassin">
                <items>
@@ -116,7 +116,7 @@
             <Font size="11.0" />
          </font>
       </MenuButton>
-      <MenuButton id="menu3" fx:id="menuButton3" layoutX="257.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 3" textFill="#1f12b0">
+      <MenuButton id="menu3" fx:id="menuButton3" layoutX="300.0" layoutY="40.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 3" textFill="#1f12b0">
          <items>
             <Menu mnemonicParsing="false" onAction="#menuClick" text="Assassin">
                <items>
@@ -168,7 +168,7 @@
             <Font size="11.0" />
          </font>
       </MenuButton>
-      <MenuButton id="menu4" fx:id="menuButton4" layoutX="423.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 4" textFill="#1f12b0">
+      <MenuButton id="menu4" fx:id="menuButton4" layoutX="450.0" layoutY="40.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 4" textFill="#1f12b0">
          <items>
             <Menu mnemonicParsing="false" onAction="#menuClick" text="Assassin">
                <items>
@@ -220,7 +220,7 @@
             <Font size="11.0" />
          </font>
       </MenuButton>
-      <MenuButton id="menu5" fx:id="menuButton5" layoutX="543.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 5" textFill="#1f12b0">
+      <MenuButton id="menu5" fx:id="menuButton5" layoutX="590.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 5" textFill="#1f12b0">
          <items>
             <Menu mnemonicParsing="false" onAction="#menuClick" text="Assassin">
                <items>
@@ -272,7 +272,7 @@
             <Font size="11.0" />
          </font>
       </MenuButton>
-      <MenuButton id="menu6" fx:id="menuButton6" layoutX="657.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 6" textFill="#1f12b0">
+      <MenuButton id="menu6" fx:id="menuButton6" layoutX="720.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #b3d1ff;" text="Item 6" textFill="#1f12b0">
          <items>
             <Menu mnemonicParsing="false" onAction="#menuClick" text="Assassin">
                <items>
@@ -324,18 +324,18 @@
             <Font size="11.0" />
          </font>
       </MenuButton>
-      <Button fx:id="showStats" layoutX="330.0" layoutY="145.0" mnemonicParsing="false" onAction="#changeLabelText" style="-fx-background-color: #b3d1ff;" text="Show stats" textFill="#1f12b0">
+      <Button fx:id="showStats" layoutX="361.0" layoutY="145.0" mnemonicParsing="false" onAction="#changeLabelText" style="-fx-background-color: #b3d1ff;" text="Show stats" textFill="#1f12b0">
          <font>
             <Font size="13.0" />
          </font>
       </Button>
-      <Text fill="#1f12b0" layoutX="323.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select 6 items:" textAlignment="CENTER" wrappingWidth="95.33335367838538">
+      <Text fill="#1f12b0" layoutX="352.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select 6 items:" textAlignment="CENTER" wrappingWidth="95.33335367838538">
          <font>
             <Font name="Arial" size="14.0" />
          </font>
       </Text>
-      <Line endX="725.3333129882812" endY="81.50000762939453" startX="15.99998950958252" startY="81.50000762939453" stroke="#1f12b0" />
-      <Label fx:id="myLabel" alignment="TOP_LEFT" layoutX="40.0" layoutY="186.0" prefHeight="195.0" prefWidth="683.0" text="gg">
+      <Line endX="785.3333740234375" endY="81.50000762939453" startX="15.99998950958252" startY="81.50000762939453" stroke="#1f12b0" />
+      <Label fx:id="myLabel" alignment="TOP_LEFT" layoutX="40.0" layoutY="190.0" prefHeight="259.0" prefWidth="735.0" text="Calculating..." textFill="#00000075">
          <font>
             <Font name="Courier New" size="12.0" />
          </font>
