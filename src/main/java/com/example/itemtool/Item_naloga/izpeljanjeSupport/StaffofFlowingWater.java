@@ -5,7 +5,7 @@ import com.example.itemtool.Item_naloga.Osnova.SupportItem;
 public class StaffofFlowingWater extends SupportItem {
     public StaffofFlowingWater(){
         super();
-        name="Staff of FlowingWater";
+        name="Staff of Flowing Water";
         AD=0;
         AP=35;
         HP=0;

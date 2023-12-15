@@ -73,7 +73,6 @@ public class HelloController {
             MenuItem clickedItemName = (MenuItem) event.getTarget();
             String itemName = clickedItemName.getText();
             String dropDownID = clickedItemID.getParentPopup().getOwnerNode().getId();
-            //todo napisi vse id-je
             if(dropDownID.equals("menu1")){
                 selected[0]=clickedItemName.getText();
                 menuButton1.setText(itemName);
@@ -115,7 +114,6 @@ public class HelloController {
             }
         }
         String[] lines = new String[6];
-        String sum = "";
 
         //display
         String lineFormat = "%-25s%-10s%-10s%-10s%-10s";
@@ -165,7 +163,7 @@ public class HelloController {
                 ) + bonusString + "\n";
             }
         }
-        String sumLine = "------------------------------------------------------------------------------------------\nsum vseh statistik: \n";
+        String sumLine = "------------------------------------------------------------------------------------------\nsum of all item stats: \n";
 
         int sumAd = 0;
         int sumAp = 0;
